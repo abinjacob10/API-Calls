@@ -2,7 +2,7 @@
     Aruba AOS-CX switch, Model 6300 is REST-API framework capable. Here rest v10.04 is used to make REST calls to the switch from a PC.
     Programs does following basic function:
     1. Takes switch remote login username and password, login to switch using POST call
-    2. Adds vlan 41 to the existing list of vlans in switch. We need to know the API correct URL. URL was used from AOS-CX REST API Reference which is based on Swagger 3.0 UI(uses openapi.json).
+    2. Adds vlan 41 to the existing list of vlans in switch. We need to know the correct API URL. URL was used from AOS-CX REST API Reference which is based on Swagger 3.0 UI(uses openapi.json).
     3. Uses .json() method to print the list of vlans in amore human friendly format.
     
 '''
